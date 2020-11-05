@@ -1,0 +1,24 @@
+{
+  "name": "openlayers_parcel_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "pg l",
+  "license": "ISC",
+  "dependencies": {
+    "map": "^1.0.1",
+    "ol": "^6.4.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "parcel-bundler": "^1.12.4"
+  }
+}
